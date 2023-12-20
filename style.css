@@ -1,0 +1,24 @@
+.page-container{
+  display: flex;
+  background: linear-gradient(#8A6240, #CABA9C);
+  height: 100vh;
+  width: 2849px;
+}
+
+img{
+  width: 25px;
+}
+.left-side input{
+  border: none;
+  background: inherit;
+  margin-left: 8px;
+}
+
+.left-side div{
+  border-bottom: 1px solid black;
+}
+.right-side{
+  background-color:#8A6240;
+  height: 400px;
+  margin-left: 20px;
+}
