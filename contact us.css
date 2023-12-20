@@ -1,0 +1,81 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
+}
+
+.main{
+    background: linear-gradient(#8A6240, #CABA9C);
+    position: relative;
+    height: 600px;
+    
+}
+.pizza img{
+    width: 250px;
+    position: absolute;
+    left:-40px;
+    bottom: 100px;
+}
+
+
+.noodles img{
+    width: 250px;
+    position: absolute;
+    right:240px;
+    top: 0px;
+    transform:rotate(30deg)
+}
+.cake img{
+    width: 250px;
+    position: absolute;
+    right:240px;
+    bottom: 0px;
+    transform: rotate(-45deg);
+}
+.spoons img{
+    width: 300px;
+    position: absolute;
+    left: -20px;
+    top: -80px;
+    transform: rotate(-30deg)
+}
+
+.info img{
+    width: 40px;
+}
+
+.info{
+    background: #946944;
+    position: absolute;
+    right: 0px;
+    top: 70px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+    padding-left: 50px;
+    width: 300px;
+    height: 440px;
+    margin-top: 27px;
+    
+    /* border-radius: 2px; */
+    
+}
+
+.centre-elements{
+    position: absolute;
+    left:300px;
+    top: 10px;
+    width: 400px;
+
+}
+
+.form{
+
+    position: absolute;
+    /* background: #946944; */
+    left: 500px;
+    top: 300px;
+    bottom: 100px;
+    
+
+}
