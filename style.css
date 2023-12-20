@@ -1,12 +1,27 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500&family=Kalam:wght@300;400;700&family=Poppins:wght@100;200;300;400;500&family=Roboto:wght@100;300;400;500&family=Rubik:wght@300;400;500;700&display=swap');
+
+*{
+  font-size: 70px;
+  font-family: 'Kalam', cursive;
+}
 .page-container{
   display: flex;
   background: linear-gradient(#8A6240, #CABA9C);
-  height: 100vh;
+  height: 1778px;
   width: 2849px;
 }
 
 img{
-  width: 25px;
+  width: 2250px;
+}
+.left-side{
+  width: 1397px;
+  height: 1386px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .left-side input{
   border: none;
@@ -14,11 +29,48 @@ img{
   margin-left: 8px;
 }
 
-.left-side div{
+.contact-us div{
   border-bottom: 1px solid black;
 }
 .right-side{
   background-color:#8A6240;
   height: 400px;
   margin-left: 20px;
+  width: 933px;
+  height: 1195px;
+}
+
+.left-side img{
+  width: 350px;
+}
+.spoons{
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform:rotate(30deg);
+}
+.noodles{
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform:rotate(30deg);
+}
+.cake{
+  position: absolute;
+  bottom: 0;
+  right:0;
+  transform:rotate(-30deg);
+}
+.pizza{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transform:rotate(30deg);
+}
+
+.right-side img{
+  width: 50px;
+}
+.left-side input:focus{
+  border:none;
 }

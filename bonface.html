@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .contact-info img{
+        height: 50px;
+      }
+      img{
+        height: 70px;
+      }
+      .body{
+        display: flex;
+        flex-direction: row;
+      }
+      /* .target input{
+        border: none;
+        width:300px;
+      }
+      .target{
+        border-bottom: 1px solid black;
+      } */
+
+      .targeted{
+        border: none;
+        border-bottom: 1px solid black;
+        margin-bottom: 5px;
+      }
+      .targeted::placeholder{
+        color: black;
+      }
+      input:focus{
+        border: none;
+        border-bottom: 1px solid black;
+      }
+      .body-form{
+        position: relative;
+      }
+      .spoons{
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+      .noodles{
+        position: absolute;
+        top: 0;
+        right: 0;
+      }
+      .cake{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+      }
+      .pizza{
+        position: absolute;
+        bottom: 8px;
+        left: 0;
+      }
+      form{
+        position:relative;
+        z-index: 100;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="body">
+      <div class="body-form">
+          <div class="spoons"><img src="fork-knife-spoon.png" alt="" /></div>
+          <div class="noodles"><img src="ramen.png" alt="" /></div>
+          <div class="cake"><img src="cake.png" alt="" /></div>
+          <div class="pizza"><img src="pizza.png" alt="" /></div>
+        <p>Contact Us</p>
+        <p>
+          Do you have any Questions or inquiries? Send us your queries, comments
+          or complaints and we will be happy to respond to you.
+        </p>
+        <form>
+          <div class="target">
+            <!-- <label for="name">Name</label> -->
+            <input class="targeted" type="text" placeholder="Name" />
+          </div>
+          <div class="target">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="" />
+          </div>
+          <div class="target">
+            <label for="message">Message</label>
+            <input type="text" name="message" />
+          </div>
+          <input type="submit" value="Send">
+        </form>
+      </div>
+      <div class="contact-info">
+        <p>contact us info</p>
+        <div class="contact-layout">
+          <img src="location-icon.png" alt="" />
+          <label>River Road, Kijani.</label>
+        </div>
+        <div class="contact-layout">
+          <img src="phone-icon.png" alt="" />
+          <label>+873 933 920123</label>
+        </div>
+        <div class="contact-layout">
+          <img src="Instagram-icon.png" alt="" />
+          <label>
+            @metro_munch873</label>
+        </div>
+        <div class="contact-layout">
+          <img src="Email-icon.png" alt="" />
+          <label>metromunch@gmail.com</label>
+        </div>
+        <div class="contact-layout">
+          <img src="clock-icon.png" alt="" />
+          <label>Open 24hrs</label>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
